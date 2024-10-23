@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arogya Mitra</title>
+</head>
+
+<body>
+    <!-- Top -->
+    <div class="top">
+        <div><img src="/main/assets/imges/logo.png" width="60px" alt="Arogya Mitra Logo" /></div>
+        <nav class="abc">
+            <div class="top-element"><a href="#home">Home</a></div>
+            <div class="top-element"><a href="#about">About Bot</a></div>
+            <div class="top-element"><a href="#usage">How to Use</a></div>
+            <div class="top-element"><a href="#contact">Contact Us</a></div>
+        </nav>
+        <button class="entery" onclick="launchBot()">Launch</button>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <img src="/main/assets/imges/image1.jpg" alt="Image 1">
+            <img src="/main/assets/imges/image2.jpg" alt="Image 2">
+            <img src="/main/assets/imges/image3.jpg" alt="Image 3">
+            <img src="/main/assets/imges/image4.jpg" alt="Image 4">
+            <img src="/main/assets/imges/image5.jpg" alt="Image 5">
+        </div>
+    </div>
+
+    <!-- Launch Section -->
+    <div class="launch">
+        <div class="launch-element"><button onclick="launchBot()">Launch Arogya Mitra</button></div>
+        <div class="launch-element">
+            <a href="#" onclick="showAlert()">Download for Desktop</a>
+        </div>
+        <div class="launch-element">
+            <a href="#" onclick="showAlert()">Download for Mobile</a>
+        </div>
+    </div>
+
+    <br><br>
+
+    <h2>Welcome to Arogya Mitra</h2>
+    <br>
+    <div class="intro1">
+        <div class="intro1-elemnt">We’ve developed Arogya Mitra to assist users in accessing reliable health information
+            and personal health assistance in a conversational manner. This AI-powered health chatbot is designed to
+            guide
+            users with quick and accurate health tips, address common health-related questions, and suggest possible
+            next
+            steps based on the user's inputs.</div>
+        <div class="intro1-elemnt">The interactive nature of Arogya Mitra allows it to handle follow-up queries, clarify
+            doubts, and provide insights in real-time. It’s like having a health companion you can always reach out to
+            for
+            advice.</div>
+        <div class="intro1-elemnt">During this early preview, we are gathering feedback to enhance its performance and
+            ensure it meets your health-related needs effectively. Arogya Mitra is free to use for all during this
+            period.</div>
+        <div class="intro1-elemnt">We invite you to try it out today and share your experience!</div>
+    </div>
+
+    <!-- main data -->
+    <div class="main">
+        <h2>Key Features</h2>
+        <div class="types">
+            <div class="types-elemnt" onclick="scrollToSection('healthTips')">Personalized health tips</div>
+            <div class="types-elemnt" onclick="scrollToSection('symptomGuide')">Symptom-based guidance</div>
+            <div class="types-elemnt" onclick="scrollToSection('friendlyInterface')">Friendly, conversational interface
+            </div>
+        </div>
+    </div>
+
+    <!-- Detailed -->
+    <div id="healthTips" class="detail-section">
+        <h3>Personalized Health Tips</h3>
+        <p>Based on your age, health history, and current lifestyle, Arogya Mitra provides daily personalized health
+            tips to improve your well-being. Whether you are looking for diet recommendations, exercise plans, or mental
+            health tips, Arogya Mitra has got you covered.</p>
+
+        <h4>Tailored Nutrition Guidance</h4>
+        <p>Arogya Mitra analyzes your dietary preferences, nutritional needs, and any specific health conditions to
+            offer personalized meal plans and food choices. From increasing your intake of essential vitamins to
+            recommending healthy snacks, these tips are designed to help you make better dietary choices that suit your
+            lifestyle and health goals.</p>
+
+        <h4>Customized Fitness Regimens</h4>
+        <p>Understanding the importance of physical activity, Arogya Mitra crafts exercise plans tailored to your
+            fitness level and preferences. Whether you're a beginner or an experienced fitness enthusiast, you can
+            receive recommendations on suitable workouts, including strength training, cardio, yoga, or even outdoor
+            activities. These personalized regimens help you stay motivated and achieve your fitness objectives
+            effectively.</p>
+
+        <h4>Mental Wellness Strategies</h4>
+        <p>Mental health is as important as physical health, and Arogya Mitra offers tips and strategies to enhance your
+            mental well-being. From mindfulness exercises and relaxation techniques to coping strategies for stress and
+            anxiety, these resources are designed to promote a balanced and healthy mind. Regular check-ins on your
+            mental health allow Arogya Mitra to provide ongoing support tailored to your needs.</p>
+
+        <h4>Health Reminders and Notifications</h4>
+        <p>Arogya Mitra ensures that you stay on track with your health goals by sending timely reminders and
+            notifications. Whether it’s reminding you to drink enough water, take your medications, or fit in a workout
+            session, these prompts help reinforce healthy habits and encourage consistency in your daily routine.</p>
+
+        <h4>Access to Resources and Community Support</h4>
+        <p>In addition to personalized tips, Arogya Mitra connects you to a wealth of resources, including articles,
+            videos, and community support groups. Engaging with others on similar health journeys fosters a sense of
+            belonging and motivation. Arogya Mitra encourages users to share their experiences, successes, and
+            challenges, creating a supportive environment for everyone.</p>
+    </div>
+
+
+    <div id="symptomGuide" class="detail-section">
+        <h3>Symptom-based Guidance</h3>
+        <p>Not feeling well? Arogya Mitra can help by assessing your symptoms and suggesting possible conditions or
+            steps to take. It provides suggestions for common issues like headaches, fever, and more. However, always
+            consult a healthcare provider for serious conditions.</p>
+
+        <h4>Comprehensive Symptom Assessment</h4>
+        <p>Arogya Mitra uses an intuitive questionnaire to gather information about your symptoms, helping it to narrow
+            down potential conditions. By asking specific questions related to the severity, duration, and nature of
+            your symptoms, the interface can provide more accurate guidance tailored to your situation.</p>
+
+        <h4>Common Conditions and Suggested Actions</h4>
+        <p>Whether you're experiencing a mild headache, digestive issues, or a persistent cough, Arogya Mitra offers
+            suggestions for common ailments. It provides helpful advice on home remedies, over-the-counter medications,
+            and when to seek professional medical help. This proactive approach empowers users to take charge of their
+            health and make informed decisions.</p>
+
+        <h4>Emergency Warning Signals</h4>
+        <p>Arogya Mitra is programmed to recognize symptoms that may indicate serious health issues. If your symptoms
+            suggest a potential emergency, the assistant will prioritize urgent care recommendations, urging you to seek
+            immediate medical attention. This feature is crucial in ensuring timely intervention for potentially
+            life-threatening conditions.</p>
+
+        <h4>Education on Symptoms</h4>
+        <p>In addition to providing guidance, Arogya Mitra educates users about their symptoms. It explains the possible
+            underlying causes, potential complications, and preventive measures for various conditions. This educational
+            aspect not only helps users understand their health better but also promotes proactive health management.
+        </p>
+
+        <h4>Follow-up and Monitoring</h4>
+        <p>To enhance user experience, Arogya Mitra can also assist in follow-up monitoring. After providing initial
+            guidance, it can check in with users to see how their symptoms progress, suggest further steps, or recommend
+            additional resources. This continuous support fosters a sense of accountability and encourages users to stay
+            informed about their health.</p>
+    </div>
+
+
+    <div id="friendlyInterface" class="detail-section">
+        <h3>Friendly, Conversational Interface</h3>
+        <p>Arogya Mitra interacts with you like a personal health assistant. With natural language processing, it
+            understands your questions and provides responses that feel like a real conversation, making health guidance
+            easier and more accessible.</p>
+
+        <h4>Personalized Health Insights</h4>
+        <p>The conversational interface of Arogya Mitra is designed to offer personalized health insights tailored to
+            your individual needs. By analyzing your queries and preferences, it can suggest lifestyle changes, dietary
+            recommendations, and wellness tips that are relevant to your unique health profile. This personalized
+            approach helps you make informed decisions about your health and well-being.</p>
+
+        <h4>User-Friendly Interaction</h4>
+        <p>The interface emphasizes user-friendliness, ensuring that anyone can engage with Arogya Mitra, regardless of
+            their technical expertise. Simple prompts and intuitive responses allow users to navigate health-related
+            inquiries effortlessly. Whether you’re asking about symptoms, treatment options, or general health advice,
+            Arogya Mitra is equipped to guide you through the conversation smoothly.</p>
+
+        <h4>24/7 Availability</h4>
+        <p>Unlike traditional health consultations, Arogya Mitra is available around the clock. You can access health
+            information and advice anytime, anywhere. This feature is particularly beneficial for those with busy
+            schedules or individuals who may feel uncomfortable seeking help in person. The immediate availability of
+            assistance makes managing your health more convenient and stress-free.</p>
+
+        <h4>Continuous Learning and Improvement</h4>
+        <p>Arogya Mitra utilizes advanced machine learning algorithms to continuously improve its responses. As it
+            interacts with users, it learns from feedback and adapts its knowledge base, ensuring that the information
+            provided is accurate, up-to-date, and relevant. This commitment to ongoing improvement enhances the overall
+            user experience and builds trust in the information delivered.</p>
+
+        <h4>Encouraging Health Literacy</h4>
+        <p>Through its conversational style, Arogya Mitra not only provides answers but also encourages users to
+            understand their health better. It fosters health literacy by explaining medical terms, treatment options,
+            and preventive measures in simple language. This empowerment enables users to take control of their health
+            and engage in informed discussions with healthcare professionals when necessary.</p>
+    </div>
+    <br>
+
+
+    <div class="question-container">
+        <h2>Common Health Questions and Solutions</h2>
+
+
+        <div class="question">
+            <div class="health-box">
+                <div class="ques-img"><img src="/main/assets/imges/ques1.jpg" width="250px" alt="Health Image 1"></div>
+                <h4>Most Asked Question 1</h4>
+                <p>What should I do if I have a headache?</p>
+                <p><strong>Our Solution:</strong> Arogya Mitra suggests rest, hydration, and over-the-counter pain
+                    relief. If symptoms persist, consult a healthcare provider.</p>
+            </div>
+
+            <div class="health-box">
+                <div class="ques-img"><img src="/main/assets/imges/ques2.jpg" width="250px" alt="Health Image 2"></div>
+                <h4>Most Asked Question 2</h4>
+                <p>How can I manage stress effectively?</p>
+                <p><strong>Our Solution:</strong> Arogya Mitra provides personalized stress management tips, including
+                    meditation, exercise, and healthy eating habits.</p>
+            </div>
+
+            <div class="health-box">
+                <div class="ques-img"><img src="/main/assets/imges/ques3.jpg" width="250px" alt="Health Image 3"></div>
+                <h4>Most Asked Question 3</h4>
+                <p>What are some good dietary recommendations?</p>
+                <p><strong>Our Solution:</strong> Arogya Mitra offers tailored dietary plans based on individual health
+                    needs and preferences, emphasizing balanced nutrition.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <br><br>
+    <h2> title </h2>
+
+    <div class="statistics-section">
+        <div class="statistic-pair">
+            <div class="statistic-item">
+                <div class="info">
+                    <h4>Headaches</h4>
+                    <div class="circle-percentage"></div>
+                </div>
+                <div class="image">
+                    <img src="/main/assets/imges/headache.jpg" width="190px" alt="percentage">
+                </div>
+            </div>
+            <div class="statistic-item">
+                <div class="info">
+                    <h4>Stress Management</h4>
+                    <div class="circle-percentage"></div>
+                </div>
+                <div class="image">
+                    <img src="/main/assets/imges/stress.jpg" width="190px" alt="percentage">
+                </div>
+            </div>
+        </div>
+
+        <div class="statistic-pair">
+            <div class="statistic-item">
+                <div class="info">
+                    <h4>Dietary Recommendations</h4>
+                    <div class="circle-percentage"></div>
+                </div>
+                <div class="image">
+                    <img src="/main/assets/imges/diet.jpg" width="190px" alt="percentage">
+                </div>
+            </div>
+            <div class="statistic-item">
+                <div class="info">
+                    <h4>General Wellness</h4>
+                    <div class="circle-percentage"></div>
+                </div>
+                <div class="image">
+                    <img src="/main/assets/imges/grn.jpg" width="190px" alt="percentage">
+                </div>
+            </div>
+        </div>
+
+        <div class="statistic-pair">
+            <div class="statistic-item">
+                <div class="info">
+                    <h4>Sleep Quality</h4>
+                    <div class="circle-percentage"></div>
+                </div>
+                <div class="image">
+                    <img src="/main/assets/imges/sleep.jpg" width="190px" alt="percentage">
+                </div>
+            </div>
+            <div class="statistic-item">
+                <div class="info">
+                    <h4>Exercise Advice</h4>
+                    <div class="circle-percentage"></div>
+                </div>
+                <div class="image">
+                    <img src="/main/assets/imges/exercise.jpg" width="190px" alt="percentage">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="statistic-pair">
+            <div class="statistic-item">
+                <div class="info">
+                    <h4>Nutrition Tips</h4>
+                    <div class="circle-percentage"></div>
+                </div>
+                <div class="image">
+                    <img src="/main/assets/imges/nutration.jpg" width="190px" alt="percentage">
+                </div>
+            </div>
+            <div class="statistic-item">
+                <div class="info">
+                    <h4>Mental Health</h4>
+                    <div class="circle-percentage"></div>
+                </div>
+                <div class="image">
+                    <img src="/main/assets/imges/mental.jpg" width="190px" alt="percentage">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="launch-last"><button onclick="launchBot()">Launch Arogya Mitra</button></div>
+
+
+
+
+
+    <script>
+        // Function to scroll to specific place /img
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Launch Bot 
+        function launchBot() {
+            alert("Launching Arogya Mitra Bot...");
+        }
+
+        //aleart for download 
+        function showAlert() {
+            alert("Sorry, but currently this feature is not available. This feature is coming soon! Stay with Arogya Mitra website.");
+        }
+
+        // Image slider js code
+        let index = 0;
+        function showSlides() {
+            const slides = document.querySelector('.slides');
+            index++;
+            if (index >= slides.children.length) index = 0;
+            slides.style.transform = `translateX(${-index * 100}%)`;
+        }
+        setInterval(showSlides, 3000);
+    </script>
+
+
+
+    <footer>
+        <div class="footer">
+            <div>
+                <div class="footer-element"><a href="#">a</a></div>
+                <div class="footer-element"><a href="#">b</a></div>
+                <div class="footer-element"><a href="#">b</a></div>
+                <div class="footer-element"><a href="#">d</a></div>
+                <div class="footer-element"><a href="#">e</a></div>
+            </div>
+            <div>
+                <div class="footer-element"><a href="#">f</a></div>
+                <div class="footer-element"><a href="#">g</a></div>
+                <div class="footer-element"><a href="#">h</a></div>
+                <div class="footer-element"><a href="#">i</a></div>
+                <div class="footer-element"><a href="#">j</a></div>
+            </div>
+            <div>
+                <div class="footer-element"><a href="#">k</a></div>
+                <div class="footer-element"><a href="#">l</a></div>
+                <div class="footer-element"><a href="#">m</a></div>
+                <div class="footer-element"><a href="#">n</a></div>
+                <div class="footer-element"><a href="#">o</a></div>
+            </div>
+            <div>
+                <div class="footer-element"><a href="#">p</a></div>
+                <div class="footer-element"><a href="#">q</a></div>
+                <div class="footer-element"><a href="#">r</a></div>
+                <div class="footer-element"><a href="#">s</a></div>
+                <div class="footer-element"><a href="#">t</a></div>
+            </div>
+            <div>
+                <div class="footer-element"><a href="#">u</a></div>
+                <div class="footer-element"><a href="#">v</a></div>
+                <div class="footer-element"><a href="#">w</a></div>
+                <div class="footer-element"><a href="#">x</a></div>
+                <div class="footer-element"><a href="#">y</a></div>
+            </div>
+
+
+        </div>
+    </footer>
+</body>
+
+</html>
